@@ -19,7 +19,7 @@ Install Maven and set path.
 Install testng in Eclispe.
 Convert Project into cucumber project.
 
-#Running features
+# Running features
 Goto project directory.
 
 Use "mvn test" command to run features.
