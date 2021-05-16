@@ -32,7 +32,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     @AfterMethod
     public void tearDown() {
         
-      //Webdriverfactory.quitDriver();
+      Webdriverfactory.quitDriver();
        
     }
 }
