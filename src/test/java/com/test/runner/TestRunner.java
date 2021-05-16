@@ -11,8 +11,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features = { "src/test/resources/features" }, 
-		glue = { "com.testvagrant.stepdefination" }, // path of step definition
-		tags = "@test1",
+		glue = { "com.test.stepdefination" }, // path of step definition
+		tags = "@Test",
 		
 		plugin = { "pretty",
 				"html:./reports/cucumber-reports/cucumber-html/index.html",
