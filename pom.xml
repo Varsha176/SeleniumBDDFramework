@@ -7,7 +7,7 @@
        <version>0.0.1-SNAPSHOT</version>
  
        <properties>
-             <log4j.version>1.2.17</log4j.version>
+             
              <cucumber.version>6.8.1</cucumber.version>
              <appium.version>6.0.0</appium.version>
        </properties>
@@ -125,11 +125,7 @@
 
 
 
-             <dependency>
-                    <groupId>log4j</groupId>
-                    <artifactId>log4j</artifactId>
-                    <version>${log4j.version}</version>
-             </dependency>
+           
            
  
        </dependencies>
