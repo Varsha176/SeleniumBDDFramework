@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = { "src/test/resources/features" }, 
 		glue = { "com.test.stepdefination" }, // path of step definition
-		tags = "@Test",
+		tags = "@Login",
 		
 		plugin = { "pretty",
 				"html:./reports/cucumber-reports/cucumber-html/index.html",
