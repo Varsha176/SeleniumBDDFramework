@@ -5,10 +5,15 @@
 	<test name="TestOnChrome">
 		<parameter name="browserName" value="chrome" />
 		<classes>
-			<class name="com.testvagrant.runner.TestRunner" />
+			<class name="com.test.runner.TestRunner" />
 		</classes>
 	</test>
 
-	
+	 <test name="TestOnFirefox">
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="com.test.runner.TestRunner" />
+		</classes>
+	</test> 
 
 </suite> 
