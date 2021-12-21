@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		plugin = { "pretty",
 				"html:./reports/cucumber-reports/cucumber-html/index.html",
-				"json:./reports/cucumber-reports/CucumberTestReport.json",
+				"json:target/cucumber-reports/CucumberTestReport.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" } 
 		)
 
